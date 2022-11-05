@@ -1,0 +1,251 @@
+
+body{
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;   
+}
+
+
+#linea{
+    width: 100%;
+    height: 5px;
+    background: #A3CB38;
+}
+
+
+#cabecera{
+    width: 100%;
+    height: 90px;
+    background: #27ae60;
+}
+
+
+#cabecera #centro1{
+    width: 800px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+}
+
+
+#cabecera #centro1 #logo{
+    width: 200px; border: 0px solid;
+    float: left;
+}
+
+
+#cabecera #centro1 #logo h2, p{
+    color: #f5f6fa; 
+}
+
+
+#cabecera #centro1 #logo p{
+    margin-top: -10px;
+}
+
+/*----------------menu------------------*/
+
+#cabecera #menu{
+    width: 580px;
+    height: auto; 
+    overflow: hidden;
+    border: 0px solid;
+    float: right;
+    margin-top: 40px;
+    text-align: right;
+}
+
+
+#cabecera #menu ul li{
+    display: inline-block;
+}
+
+
+#cabecera #menu ul li a{
+    color: #f5f6fa;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 0px 4px;
+}
+
+#cabecera #menu ul li a:hover{
+    background:#BDC581;
+    border-radius: 5px;
+
+}
+
+/*------------presentacion---------------*/
+
+#presentacion{
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    background: #A3CB38 ;
+}
+
+
+#presentacion #centro2{
+    width: 800px;
+    margin: auto;   
+}
+
+#presentacion #centro2 #izquierda{
+    width: 290px;
+    border: 0px solid;
+    float: left;
+}
+
+#presentacion #centro2 #izquierda h3 {
+    color: #f5f6fa;
+    font-weight: lighter;
+}
+
+
+.descripcion.pres{
+    color: white;
+    text-align: left;
+}
+
+
+.boton{
+    color: #27ae60;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0; 
+    float: right;
+}
+
+
+.boton:hover{
+    background: #BDC581;
+    color: white;
+}
+
+
+#presentacion #centro2 #derecha{
+    width: 490px;
+    height: auto;
+    float: right;
+}
+
+.img{
+    width: 470px;
+    height: 180px;
+    border: 3px solid #27ae60;
+    margin: 20px 0px;
+    float: right; 
+}
+
+
+/*------------contenidos---------------*/
+#contenidos{
+    background:#F8EFBA ;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+#contenidos #centro3{
+    width: 800px;
+    margin: auto;
+    border: 0px solid;
+    height: auto;
+    overflow: hidden;
+}
+
+
+#contenidos #centro3 #izquierda{
+    width: 390px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: left;
+}
+
+#contenidos #centro3 #izquierda h4{
+    color:#27ae60;
+}
+
+
+#contenidos #centro3 #izquierda .descripcion{
+    text-align: left;
+    color:#27ae60;
+}
+
+.zoo-servicio{
+    width: 120px;
+    height: 100px; 
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #27ae60 ;
+}
+
+
+/*------------contenidos derecha---------------*/
+#contenidos #centro3 #derecha{
+    width: 390px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: right;
+}
+
+#contenidos #centro3 #derecha h4{
+    text-align: left;
+    font-size: 20px;
+    color:#27ae60;
+}
+
+#contenidos #centro3 #derecha article{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#contenidos #centro3 #derecha article h4{
+    text-align: left;
+    font-size: 17px;   
+}
+
+#contenidos #centro3 #derecha article p{
+    color:#27ae60;
+    text-align: left;
+    margin-top: -18px;
+    padding: 5px;
+}
+
+.leer-mas{
+    padding: 4px 10px;
+    background:#BDC581;
+    text-decoration: none;
+    float: right;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+
+
+/*------------pie de pagina---------------*/
+
+#pie{
+    width: 100%;
+    height: 90px;
+    background: #27ae60;
+}
+
+#pie #centro-pie{
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+
+.email{
+    color: white;
+    text-decoration: none;
+}
+
+.email:hover{
+    text-decoration: underline;
+}
